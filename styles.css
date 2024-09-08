@@ -12,7 +12,6 @@ body {
     min-width: 350px;
 }
 
-/* Fade-in Animation for Body */
 @keyframes fadeInBody {
     from {
         opacity: 0;
@@ -23,7 +22,6 @@ body {
     }
 }
 
-/* Container for the resume */
 .container {
     max-width: 800px;
     background-color: white;
@@ -31,18 +29,13 @@ body {
     border-radius: 15px;
     padding: 40px;
     transform: translateY(-50px);
-    /* Start position above */
     opacity: 0;
-    /* Start invisible */
     animation: fadeInDown 1s ease-out forwards;
-    /* Animation name changed */
 }
 
-/* Fade-in Down Animation */
 @keyframes fadeInDown {
     from {
         transform: translateY(-50px);
-        /* Animate from above */
         opacity: 0;
     }
 
@@ -52,7 +45,6 @@ body {
     }
 }
 
-/* Personal Information Section */
 .personal-info img {
     width: 150px;
     height: 150px;
@@ -78,7 +70,6 @@ body {
     margin-top: 10px;
 }
 
-/* Section Headings */
 h2 {
     color: #333;
     font-size: 2.2em;
@@ -118,7 +109,6 @@ h2::before {
     margin-bottom: 0;
 }
 
-/* Skills Section */
 .skills-container {
     gap: 15px;
     padding-top: 10px;
@@ -175,7 +165,6 @@ h2::before {
     transform: scale(1.1);
 }
 
-/* Slide-in Animation for Skills */
 @keyframes slideInUp {
     to {
         transform: translateY(0);
@@ -183,7 +172,6 @@ h2::before {
     }
 }
 
-/* Work Experience Section */
 .work-experience p {
     font-size: 1.2em;
     color: #333;
@@ -212,13 +200,10 @@ a {
 
 a:hover {
     background-color: #3498db;
-    /* Background color on hover */
     color: #fff;
-    /* Text color on hover */
 }
 
 
-/* Media Query for Responsive Design */
 @media (max-width: 600px) {
     .container {
         padding: 20px;
